@@ -22,13 +22,39 @@ header {
   overflow: auto;
   height: 524px; }
 
-.blogStamp a {
+.head nav, a {
+  font-family: 'Oswald';
   text-decoration: none;
-  text-align: center; }
+  color: #0B3550;
+  font-size: 20px; }
+
+.head nav {
+  display: block;
+  float: right;
+  padding: 13px 0 0 0;
+  text-decoration: none; }
+
+.head a {
+  padding: 0 20px 0 0; }
+
+.top {
+  display: block;
+  padding: 0 0 0 100px;
+  margin: 0 0 0 0; }
+
+.blogStamp a {
+  font-family: 'Myriad';
+  font-size: 18px;
+  color: #0B3550;
+  text-decoration: none;
+  padding: 0 0 0 20px; }
+
+.blogStamp img {
+  float: left; }
 
 h1.surf {
   font-family: 'Myriad';
-  font-size: 58px;
+  font-size: 80px;
   text-transform: capitalize;
   color: #fff;
   text-align: center;
@@ -41,7 +67,7 @@ header.head h1 {
   color: #fff;
   text-align: center;
   background-size: auto;
-  padding: 60px 0 10px;
+  padding: 100px 0 10px;
   margin: 10px 0 0; }
 
 header.head h2 {
@@ -65,7 +91,7 @@ header.head h2 {
   background: white;
   padding: 25px 25px 45px 20px;
   margin: 0px 0 0px 100px;
-  width: 525px;
+  width: 500px;
   height: 50%;
   color: #5E686F;
   font-family: 'Myriad'; }
@@ -94,16 +120,19 @@ header.head h2 {
   float: left;
   margin: 0 20px 0 0;
   padding: 0;
-  width: 29.99%;
   background: #A3B3BE; }
 
 .comments a,
 .read a {
+  font-family: 'Myriad';
+  font-size: 15px;
   background: #A3B3BE;
   text-decoration: none;
   color: #fff; }
 
 .share a {
+  font-family: 'Myriad';
+  font-size: 15px;
   background: #196FB1;
   text-decoration: none;
   color: #fff; }
@@ -112,15 +141,13 @@ header.head h2 {
   display: block;
   margin: 0 20px 0 0;
   float: left;
-  width: 21.99%;
-  background: #A3B3BE; }
+  background: #A3B3BE;
+  text-decoration: none; }
 
 .share {
   display: block;
   float: left;
-  margin: 0 20px 0 0;
-  width: 28.99%;
-  background: #A3B3BE;
+  background: #0B3551;
   text-decoration: none; }
 
 .sideBar {
@@ -161,6 +188,14 @@ header.head h2 {
   float: left;
   font-family: 'Myriad';
   font-size: 14px;
+  color: #97A6B0; }
+
+.advertisement img {
+  padding: 30px 0 0 0; }
+
+.advertisement {
+  font-family: 'Myriad';
+  font-size: 10px;
   color: #97A6B0; }
 
 .breakbox {
@@ -215,3 +250,22 @@ header.head h2 {
   float: left;
   padding: 0 0 0 100px;
   margin: 0 0 0 0; }
+
+.ironYardLogo a {
+  display: block;
+  font-family: 'Myriad';
+  color: #A3B3BE;
+  padding: 0 0 0 60px;
+  margin: -25px 0 0 0; }
+
+.foot nav {
+  display: block;
+  float: right;
+  padding: 13px 0 0 0;
+  text-decoration: none; }
+
+.clickItems a {
+  font-family: 'Myriad';
+  color: #A3B3BE;
+  text-decoration: none;
+  border-left: solid thin; }
