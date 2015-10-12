@@ -1,0 +1,210 @@
+@font-face {
+  font-family: 'myriad';
+  src: url(file:///Users/danielopatich1/dev/_class/week1/thursday/fonts/myriad.otf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  margin: 0;
+}
+
+main {
+
+}
+
+header {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.head {
+  display: block;
+  background-image: url(file:///Users/danielopatich1/dev/_class/week1/thursday/sass/styles/assets/header.jpg);
+  // background-size: cover;
+  background-repeat: no-repeat;
+  padding:10px;
+  margin: 0 auto -50px;
+  overflow: auto;
+  height: 524px;
+}
+
+
+.blogStamp a {
+  text-decoration: none;
+  text-align: center;
+}
+
+
+h1.surf {
+  font-family: myriad;
+  font-size: 90px;
+  text-transform: capitalize;
+  color: #fff;
+  text-align: center;
+  background-size: auto;
+  padding:0;
+  margin: 0 auto;
+}
+
+header.head h1 {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  background-size: auto;
+  padding:60px 0 10px;
+  margin: 10px 0 0;
+}
+
+header.head h2 {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  background-size: auto;
+  margin: 10px 0 0;
+}
+
+#content {
+  background: #fff;
+  padding: 5px 40px 105px 40px;
+  margin: 0 auto;
+  overflow: visible;
+  height: 825px;
+}
+
+.headline {
+  float: left;
+  background: white;
+  padding: 25px 25px 45px 20px;
+  margin: 0px 0 0px 100px;
+  border-top: solid;
+  width: 525px;
+  height: 50%;
+  color: #5E686F;
+}
+
+.headline h1{
+  font-family: 'Oswald';
+  font-size: 37px;
+  text-align: left;
+  color: #0B3551;
+}
+
+.highlightComment {
+  font-family: 'Oswald';
+  color: #196FB1;
+  background: white;
+  padding: 20px 50px 25px 50px;
+  border-left: solid thin;
+  border-color: #DFE0DF;
+}
+
+.comments {
+  display: block;
+  float: left;
+  width: 29.99%;
+  background: blue;
+}
+
+.comments a{
+  background: black;
+}
+
+
+.read {
+  display: block;
+  float: left;
+  width: 21.99%;
+  background: blue;
+}
+
+
+.share {
+  display: block;
+  float: left;
+  width: 28.99%;
+  background: blue;
+}
+
+.sideBar {
+  float: right;
+  background: gray;
+  padding: 25px 25px 45px 20px;
+  margin: 0px 0 0px 100px;
+  border-top: solid;
+  width: 30%;
+  height: 200px;
+}
+
+.profile {
+
+}
+
+.breakbox {
+  background: white;
+  padding: 20px 50px 25px 50px;
+  border-top: solid thin;
+  border-color: #DFE0DF;
+}
+
+.breakbox p {
+  font-family: 'Oswald';
+  font-size: 37px;
+  color: #0B3551;
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.extraPosts {
+  background: dodgerBlue;
+  overflow: hidden;
+  height: 300px;
+}
+
+.otherCool {
+  display: block;
+  float: left;
+  width: 24.99%;
+}
+
+
+.anotherCool {
+  display: block;
+  float: left;
+  width: 24.99%;
+}
+
+
+.longCool {
+  display: block;
+  float: left;
+  width: 24.99%;
+}
+
+
+.ohCool {
+  display: block;
+  float: left;
+  width: 24.99%;
+}
+
+.foot {
+  background: #344051;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.foot {
+  height: 90px;
+}
+
+.ironYardLogo {
+  float: left;
+  padding: 0 0 0 100px;
+  margin: 0 0 0 0;
+}
