@@ -27,8 +27,8 @@ header {
   text-align: center; }
 
 h1.surf {
-  font-family: myriad;
-  font-size: 90px;
+  font-family: 'Myriad';
+  font-size: 58px;
   text-transform: capitalize;
   color: #fff;
   text-align: center;
@@ -46,10 +46,12 @@ header.head h1 {
 
 header.head h2 {
   text-decoration: none;
-  color: #fff;
+  color: #092C42;
   text-align: center;
   background-size: auto;
-  margin: 10px 0 0; }
+  margin: 10px 0 0;
+  font-family: 'Myriad';
+  font-size: 16px; }
 
 #content {
   background: #fff;
@@ -63,16 +65,17 @@ header.head h2 {
   background: white;
   padding: 25px 25px 45px 20px;
   margin: 0px 0 0px 100px;
-  border-top: solid;
   width: 525px;
   height: 50%;
-  color: #5E686F; }
+  color: #5E686F;
+  font-family: 'Myriad'; }
 
 .headline h1 {
   font-family: 'Oswald';
-  font-size: 37px;
+  font-size: 41px;
   text-align: left;
-  color: #0B3551; }
+  color: #0B3551;
+  margin: 0; }
 
 .highlightComment {
   font-family: 'Oswald';
@@ -82,35 +85,83 @@ header.head h2 {
   border-left: solid thin;
   border-color: #DFE0DF; }
 
+.comments img {
+  background-color: #5E686F; }
+
 .comments {
+  text-decoration: none;
   display: block;
   float: left;
+  margin: 0 20px 0 0;
+  padding: 0;
   width: 29.99%;
-  background: blue; }
+  background: #A3B3BE; }
 
-.comments a {
-  background: black; }
+.comments a,
+.read a {
+  background: #A3B3BE;
+  text-decoration: none;
+  color: #fff; }
+
+.share a {
+  background: #196FB1;
+  text-decoration: none;
+  color: #fff; }
 
 .read {
   display: block;
+  margin: 0 20px 0 0;
   float: left;
   width: 21.99%;
-  background: blue; }
+  background: #A3B3BE; }
 
 .share {
   display: block;
   float: left;
+  margin: 0 20px 0 0;
   width: 28.99%;
-  background: blue; }
+  background: #A3B3BE;
+  text-decoration: none; }
 
 .sideBar {
   float: right;
-  background: gray;
   padding: 25px 25px 45px 20px;
   margin: 0px 0 0px 100px;
-  border-top: solid;
   width: 30%;
   height: 200px; }
+
+.sideBar h1 {
+  font-family: 'Oswald';
+  font-size: 17px;
+  color: #196FB1;
+  margin: 30px 0 0 0; }
+
+.sideBar p {
+  font-family: 'Myriad';
+  font-size: 14px;
+  color: #97A6B0; }
+
+.profile img {
+  display: block;
+  padding: 20px 0 0 14px;
+  margin: 0 0 0 85px; }
+
+.profile a {
+  font-family: 'Oswald';
+  font-size: 17px;
+  color: #196FB1;
+  margin: 0px 0 0 100px;
+  text-decoration: none;
+  text-align: center; }
+
+.socialLinks a {
+  padding: 0 0 0 0;
+  margin: 0 0 0 35.55px;
+  display: block;
+  float: left;
+  font-family: 'Myriad';
+  font-size: 14px;
+  color: #97A6B0; }
 
 .breakbox {
   background: white;
